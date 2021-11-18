@@ -6,7 +6,7 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
-Website link: https://noamok2003.github.io/blokweb/ 
+
 
 
 
@@ -22,7 +22,7 @@ Noa Mok
 Blauw
 
 #### Je focus:
-Surface plane
+responisve design
  
 </details>
 
@@ -36,7 +36,7 @@ Surface plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.shownieuws.nl/ 
+https://noamok2003.github.io/blokweb/ 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
