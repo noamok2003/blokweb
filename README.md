@@ -36,7 +36,7 @@ Surface plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://noamok2003.github.io/blokweb/ 
+https://www.shownieuws.nl/ 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
