@@ -1,5 +1,352 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #fff;
+  --second-color: #f2f0f0;
+  --dark-background: #000000; 
+  --oranje-kleur: rgb(216, 79, 16);
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {}
+
+/* hier spreek ik de eerste section van het article aan en zet er een grid op. 
+Ik geef de section twee kolommen op de verticale as. Ook maak ik de achtergrond een beetje licht grijs*/
+main>section:first-of-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--second-color);
+}
+
+
+main section:first-of-type article {
+  width: 100%;
+  display: block;
+}
+
+main section:first-of-type article:first-of-type>img {
+  width: 100%;
+}
+
+/* dit is de oranje 'play' knop */
+main section:first-of-type article:first-of-type section img {
+  width: 1.5em;
+}
+
+/* ik zet de afbeelding over de hele pagina door te zeggen dat hij op de eerste lijn van het grid 
+begint en op de derde lijn eindigt*/
+main section:first-of-type a:first-of-type {
+
+  grid-column: 1 / 3;
+}
+
+/* ik zet de tekst over de hele pagina door te zeggen dat hij op de eerste lijn van het grid 
+begint en op de derde lijn eindigt*/
+main section:first-of-type article:first-of-type h3 {
+  /* width: 100%; */
+  font-size: 1.25em;
+  grid-column: 1 / 3;
+}
+
+/* dit zijn de twee kleine foto's onderaan. Deze staan allebei op een lijn op 
+het grid waardoor ze naast elkaar komen te staan*/
+main section:first-of-type a:nth-of-type(2) article,
+main section:first-of-type a:nth-of-type(3) article {
+  padding: 0.5em;
+  font-size: .7em;
+}
+
+/* dit is de oranje 'play' knop */
+main section:first-of-type article:nth-of-type(2) section img,
+main section:first-of-type article:nth-of-type(3) section img {
+  width: 1em;
+}
+
+/* ik zet hier de afbeeldingen en tekst van de tweede section in een grid 
+zodat ze naast elkaar komen te staan*/
+main section:nth-of-type(2) a {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: var(--main-color);
+}
+
+/* h2 eerste section*/
+main section:nth-of-type(2) h2 {
+  padding: 0.1em;
+}
+
+/* eerste afbeelding en tekst*/
+main section:nth-of-type(2) a:first-of-type img {
+  width: 100%;
+}
+
+main section:nth-of-type(2) a:first-of-type h3 {
+  padding: 0.5em;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* tweede afbeelding en tekst*/
+main section:nth-of-type(2) a:nth-of-type(2) img {
+  width: 100%;
+}
+
+main section:nth-of-type(2) a:nth-of-type(2) h3 {
+  padding: 0.5em;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* derde afbeelding en tekst*/
+main section:nth-of-type(2) a:nth-of-type(3) img {
+  width: 100%;
+}
+
+main section:nth-of-type(2) a:nth-of-type(3) h3 {
+  padding: 0.5em;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* h2 tweede section*/
+main section:nth-of-type(3) h2:first-of-type {
+  padding: 0.1em;
+}
+
+main section:nth-of-type(3) h2:nth-of-type(2) {
+  padding: 0.1em;
+  font-size: 1.2em;
+}
+
+/* video derde section*/
+main section:nth-of-type(3) video {
+  padding: 0.1em;
+
+  width: 22em;
+  height: 15em;
+}
+
+/* derde section afbeeldingen en tekst*/
+main section:nth-of-type(3) article {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: var(--main-color);
+}
+
+main section:nth-of-type(3) article img {
+  width: 100%;
+  padding: 00.5em;
+}
+
+main section:nth-of-type(3) article p {
+  padding: 0.5em;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* vierde section h2*/
+main section:nth-of-type(4) h2 {
+  padding: 0.1em;
+}
+
+main section:nth-of-type(4) img:first-of-type {
+  width: 100%;
+  padding: 0.5em;
+}
+
+/* grid vierde section*/
+main section:nth-of-type(4) article {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: var(--main-color);
+}
+
+main section:nth-of-type(4) article img {
+  width: 100%;
+}
+
+main section:nth-of-type(4) article p {
+  padding: 0.5em;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* zo stijl ik alle h2 in section 5 omdat ik wil dat ze naast elkaar staan*/
+main section:nth-of-type(5) article:first-of-type,
+main section:nth-of-type(5) article:nth-of-type(2),
+main section:nth-of-type(5) article:nth-of-type(3) {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+/*alle eerste h2's binnen section 5*/
+main section:nth-of-type(5) article:first-of-type h2:first-of-type,
+main section:nth-of-type(5) article:nth-of-type(2) h2:first-of-type,
+main section:nth-of-type(5) article:nth-of-type(3) h2:first-of-type {
+  padding-left: 0.5em;
+  text-transform: uppercase;
+  color: rgb(54, 54, 54);
+  width: 100%;
+}
+/*alle tweede h2's binnen section 5*/
+main section:nth-of-type(5) article:first-of-type h2:nth-of-type(2),
+main section:nth-of-type(5) article:nth-of-type(2) h2:nth-of-type(2),
+main section:nth-of-type(5) article:nth-of-type(3) h2:nth-of-type(2){
+  font-size: 1em;
+  padding-top: 0.8em;
+  width: 20%;
+  color: var(--oranje-kleur);
+}
+
+/* alle images binnen section 5*/
+main section:nth-of-type(5) article:first-of-type img,
+main section:nth-of-type(5) article:nth-of-type(2) img,
+main section:nth-of-type(5) article:nth-of-type(3) img{
+  width: 100%;
+  grid-column: 1 / 3;
+  padding: 0.5em;
+}
+
+
+/*hier begint het stijlen van de footer*/
+footer{
+  background-color: var(--dark-background);
+}
+
+/* alle h4's binnen de footer stijlen*/
+footer section:nth-of-type(3)  h4,
+footer section:nth-of-type(2)  h4,
+footer section:first-of-type  h4{
+  color: #6b6b6b;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 2em;
+  padding-left: 1em;
+}
+
+footer section:first-of-type ul {
+  list-style: none;
+}
+
+footer section:first-of-type ul li p{
+  font-size: 0.7em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* hier zorg ik ervoor dat de lijst naast elkaar komt te staan. Ik heb 
+de lijst in twee groepen opgedeeld en in dus in sections gezet. En die twee
+sections zet ik hier met grid naast elkaar*/
+footer section:first-of-type ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+footer section:nth-of-type(2) button{
+  background-color: var(--oranje-kleur);
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+
+  font-size: 16px;
+  border-radius: 12px;
+  margin-left: 1.5em;
+}
+
+
+/*ik zet de afbeelding en tekst naast elkaar in alle sections binnen
+de derde section*/
+footer section:nth-of-type(3)  section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*alle p's stijlen binnen de section*/
+footer section:nth-of-type(3)  section:first-of-type p, 
+footer section:nth-of-type(3)  section:nth-of-type(2) p,
+footer section:nth-of-type(3)  section:nth-of-type(3) p{
+position: absolute;
+margin-left: 5.5em;
+margin-top: 0.5em;
+color: white;
+font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+/* alle images stijlen binnen de section*/
+footer section:nth-of-type(3)  section:first-of-type img,
+footer section:nth-of-type(3)  section:nth-of-type(2) img,
+footer section:nth-of-type(3)  section:nth-of-type(3) img
+{
+  width: 2em;
+  margin-left: 2em;
+}
+
+/*de drie afbeeldingen van facebook instagram en twitter op een rij zetten*/
+footer section:nth-of-type(4) img:first-of-type{
+position: absolute;
+width: 3em;
+margin-top: 2em;
+margin-left: 5em ;
+}
+
+/*tweede afbeelding (instagram)*/
+footer section:nth-of-type(4) img:nth-of-type(2){
+  position: absolute;
+width: 3em;
+margin-top: 2em;
+margin-left: 9em ;
+}
+
+/* derde afbeelding (twitter)*/
+footer section:nth-of-type(4) img:nth-of-type(3){
+  position: absolute;
+width: 3em;
+margin-top: 2em;
+margin-left: 13em ;
+}
+
+footer section:nth-of-type(5) h5{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.5em;
+  color: #fff;
+  margin-left: 4em;
+  margin-top: 9em;
+}
+
+footer section:nth-of-type(5) ul {
+
+  color: #fff;
+  list-style: none;
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-bottom: 0em;
+
 }
 
