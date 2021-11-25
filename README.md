@@ -76,7 +76,13 @@ de 'podcast' pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vind alles erin zetten niet zo moeilijk. Ik heb nog niet gekeken naar hoe ik het responsive moet maken want heb alleen nog op mobile formaat zitten werken. Ik heb een paar vraagjes waar ik vast loop. 
+
+In de footer gaat het nog niet zo goed en is nog niet alles op de juiste plek. 
+
+<img src="/images/footer.png>" alt="foto van mijn footer">
+<img src="/images/footercode1.png>" alt="foto van de code van mijn footer">
+<img src="/images/footercode2.png>" alt="foto van de code van mijn footer">
 
 
 ### Agenda voor meeting
