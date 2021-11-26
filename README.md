@@ -80,9 +80,9 @@ Ik vind alles erin zetten niet zo moeilijk. Ik heb nog niet gekeken naar hoe ik 
 
 In de footer gaat het nog niet zo goed en is nog niet alles op de juiste plek. 
 
-<img src="../images/footer.png>" alt="foto van mijn footer">
-<img src="../images/footercode1.png>" alt="foto van de code van mijn footer">
-<img src="../images/footercode2.png>" alt="foto van de code van mijn footer">
+<img src=".../images/footer.png>" alt="foto van mijn footer">
+<img src=".../images/footercode1.png>" alt="foto van de code van mijn footer">
+<img src=".../images/footercode2.png>" alt="foto van de code van mijn footer">
 
 
 ### Agenda voor meeting
