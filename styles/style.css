@@ -6,7 +6,7 @@
   border: 0;
   outline: 0;
  }
- 
+
 *,
 *::after,
 *::before {
@@ -26,7 +26,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+p:active{
+  border:blue;
+}
 
 
 /*header styling*/
@@ -45,24 +47,29 @@ header>nav:first-of-type{
   bottom: 0px;
   left: 0px;
   right: 3em;
-  padding: 1em;
+  /* padding: 1em; */
   display: flex;
   flex-direction: column;
   transition: 1s;
+  max-width: 25em;
 }
+
 
 header>nav>img:first-of-type{
-  width: 10%;
+  width: 2.5em;
   align-self: flex-end;
+  margin: 1em;
 }
 
+header>article>img:nth-of-type(2){
+  width: 10em;
+}
 
 
 header>article{
   display: flex;
   justify-content: space-between;
 }
-
 
 
 header>nav.toonmenu{
@@ -85,23 +92,28 @@ header>nav>ul>li>a{
   text-decoration: none;
   font-size: 1em;
   text-transform: uppercase;
+  padding: 1em;
+}
+
+header>nav>ul>li:hover{
+  color:white;
+  background-color:var(--oranje-kleur) ;
+  transition: 1s;
 }
 
 header>article>img{
-  width: 10%;
+  width: 2em;
 }
 
 nav>article{
   display: flex;
-  justify-content: space-around;
-  padding: 0.5em;
   margin-top: 4em;
-  gap: 0.1em;
+  gap: 1em;
 
 }
 
 nav article img{
-  width: 20%;
+  width: 3em;
 }
 
 
@@ -166,10 +178,12 @@ main section:nth-of-type(2) a {
   display: grid;
   grid-template-columns: 30% 70%;
   background-color: var(--main-color);
-  padding: 0.5em;
 }
 
-/* h2 eerste section*/
+
+
+
+/* h2 tweede section*/
 main section:nth-of-type(2) h2 {
   padding: 0.8em;
 }
@@ -182,6 +196,14 @@ main section:nth-of-type(2) a:nth-of-type(3) img{
   width: 100%;
 }
 
+main section:nth-of-type(2) a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+
 main section:nth-of-type(2) a:first-of-type h3,
 main section:nth-of-type(2) a:nth-of-type(2) h3,
 main section:nth-of-type(2) a:nth-of-type(3) h3 {
@@ -189,16 +211,19 @@ main section:nth-of-type(2) a:nth-of-type(3) h3 {
   font-size: 0.8em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+ 
 }
 
 
 
-/* h2 tweede section*/
+
+
+
+
+/* h2 derde section*/
 main section:nth-of-type(3) h2:first-of-type {
   padding: 0.8em;
 }
-
-
 
 
 
@@ -216,20 +241,25 @@ main section:nth-of-type(3) video {
   height: 15em;
 }
 
-/* derde section styling afbeeldingen en tekst*/
-main section:nth-of-type(3) article {
+/* derde section styling afbeeldingen en tekst
+Ik stijl de afbeeldingen en tekst uit de vijfde section
+op dezelfde manier dus die staan hier ook onder*/
+main section:nth-of-type(3) article,
+main section:nth-of-type(5) article {
   display: grid;
   grid-template-columns: 30% 70%;
   background-color: var(--main-color);
 }
 
 /* derde section styling afbeeldingen */
-main section:nth-of-type(3) article img {
+main section:nth-of-type(3) article img,
+main section:nth-of-type(5) article img {
   width: 100%;
   padding: 00.5em;
 }
 
-main section:nth-of-type(3) article p {
+main section:nth-of-type(3) article p, 
+main section:nth-of-type(5) article p {
   padding: 0.5em;
   font-size: 0.8em;
   font-family: 'Montserrat', sans-serif;
@@ -250,23 +280,37 @@ main section:nth-of-type(4) section:first-of-type{
 }
 
 main section:nth-of-type(4) img{
-  min-width: 20em;
-  max-width: 80em;
+  width: 100vw;
   padding: 0.5em;
 }
 
-/* grid vierde section*/
-main section:nth-of-type(5) article {
+
+
+
+
+
+/* zesde section*/
+main section:nth-of-type(6){
+  margin-top: 2em;
+}
+
+/* grid vijfde section*/
+main section:nth-of-type(6) article {
   display: grid;
   grid-template-columns: 30% 70%;
   background-color: var(--main-color);
+  margin: .5em .5em 2em;
 }
 
-main section:nth-of-type(5) article img {
+main section:nth-of-type(6) article img {
   width: 100%;
 }
 
-main section:nth-of-type(5) article p {
+main section:nth-of-type(6) article img:first-of-type {
+  padding-bottom: .5em;
+}
+
+main section:nth-of-type(6) article p {
   padding: 0.5em;
   font-size: 0.8em;
   font-family: 'Montserrat', sans-serif;
@@ -275,44 +319,45 @@ main section:nth-of-type(5) article p {
 
 
 
-/* zo stijl ik alle h2 in section 5 omdat ik wil dat ze naast elkaar staan*/
-main section:nth-of-type(5) article:first-of-type,
-main section:nth-of-type(5) article:nth-of-type(2),
-main section:nth-of-type(5) article:nth-of-type(3) {
+/* zo stijl ik alle h2 in section 6 omdat ik wil dat ze naast elkaar staan*/
+main section:nth-of-type(6) article:first-of-type,
+main section:nth-of-type(6) article:nth-of-type(2),
+main section:nth-of-type(6) article:nth-of-type(3) {
   display: grid;
   grid-template-columns: 80% 20%;
-  padding: 0.5em;
 }
 
 
 
-/*alle eerste h2's binnen section 5*/
-main section:nth-of-type(5) article:first-of-type h2:first-of-type,
-main section:nth-of-type(5) article:nth-of-type(2) h2:first-of-type,
-main section:nth-of-type(5) article:nth-of-type(3) h2:first-of-type {
+/*alle eerste h2's binnen section 6*/
+main section:nth-of-type(6) article:first-of-type h2:first-of-type,
+main section:nth-of-type(6) article:nth-of-type(2) h2:first-of-type,
+main section:nth-of-type(6) article:nth-of-type(3) h2:first-of-type {
   padding-left: 0.8em;
   text-transform: uppercase;
   color: rgb(54, 54, 54);
   width: 100%;
 }
-/*alle tweede h2's binnen section 5*/
-main section:nth-of-type(5) article:first-of-type h2:nth-of-type(2),
-main section:nth-of-type(5) article:nth-of-type(2) h2:nth-of-type(2),
-main section:nth-of-type(5) article:nth-of-type(3) h2:nth-of-type(2){
+/*alle tweede h2's binnen section 6*/
+main section:nth-of-type(6) article:first-of-type h2:nth-of-type(2),
+main section:nth-of-type(6) article:nth-of-type(2) h2:nth-of-type(2),
+main section:nth-of-type(6) article:nth-of-type(3) h2:nth-of-type(2){
   font-size: 1em;
   padding-top: 0.8em;
   width: 20%;
   color: var(--oranje-kleur);
 }
 
-/* alle images binnen section 5*/
-main section:nth-of-type(5) article:first-of-type img,
-main section:nth-of-type(5) article:nth-of-type(2) img,
-main section:nth-of-type(5) article:nth-of-type(3) img{
+/* alle images binnen section 6*/
+main section:nth-of-type(6) article:first-of-type img,
+main section:nth-of-type(6) article:nth-of-type(2) img,
+main section:nth-of-type(6) article:nth-of-type(3) img{
   width: 100%;
   grid-column: 1 / 3;
-  padding: 0.5em;
 }
+
+
+
 
 
 /*hier begint het stijlen van de footer*/
@@ -441,3 +486,47 @@ font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
+
+
+
+/*tweede pagina*/
+
+.podcast main section:first-of-type {
+  display: block;
+  background-color: var(--main-color);
+}
+
+.podcast main section:first-of-type h2{
+
+  padding: 0.8em;
+}
+
+.podcast main section:first-of-type img{
+  width: 100vw;
+  padding: 0.5em;
+}
+
+
+.podcast main section:nth-of-type(2) a {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: var(--main-color);
+}
+
+ /* styling van alle afbeeldingen*/
+.podcast main section:nth-of-type(2) a:first-of-type img,
+.podcast main section:nth-of-type(2) a:nth-of-type(2) img,
+.podcast main section:nth-of-type(2) a:nth-of-type(3) img{
+
+  width: 100%;
+  padding: 1em;
+}
+
+.podcast main section:nth-of-type(2) a:first-of-type h3,
+.podcast main section:nth-of-type(2) a:nth-of-type(2) h3,
+.podcast main section:nth-of-type(2) a:nth-of-type(3) h3 {
+  padding: 1em;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
