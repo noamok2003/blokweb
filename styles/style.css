@@ -103,6 +103,7 @@ header>nav>ul>li:hover{
 
 header>article>img{
   width: 2em;
+  height: 100%;
 }
 
 nav>article{
@@ -530,3 +531,69 @@ font-family: 'Montserrat', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
+
+
+
+
+
+
+
+
+
+
+/*responsive maken door media queries te gebruiken*/
+
+
+/*eerste section responsive maken*/
+@media (min-width: 50em ) {
+  main>section:first-of-type{
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+}
+
+@media (min-width: 60em ) {
+  main>section:first-of-type{
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+}
+
+
+@media (min-width: 80em ) {
+  main>section:first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main section:first-of-type a:first-of-type article{
+    grid-column: 1 / 2;
+    max-width: 100%;
+  }
+
+main section:first-of-type a:nth-of-type(2) article,
+main section:first-of-type a:nth-of-type(3) article {
+grid-column: 2 / 3;
+  }
+}
+
+/*tweede section responsive maken*/
+@media(min-width:50em){
+  main section:nth-of-type(2) h2{
+    padding-left: 3em;
+}
+
+
+}
+
+@media(min-width:70em){
+  main section:nth-of-type(2) h2{
+    padding-left: 5em;
+}
+
+}
+
+
+
+
