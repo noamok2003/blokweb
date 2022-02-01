@@ -80,9 +80,9 @@ Ik vind alles erin zetten niet zo moeilijk. Ik heb nog niet gekeken naar hoe ik 
 
 In de footer gaat het nog niet zo goed en is nog niet alles op de juiste plek. 
 
-<img src=".../images/footer.png>" alt="foto van mijn footer">
-<img src=".../images/footercode1.png>" alt="foto van de code van mijn footer">
-<img src=".../images/footercode2.png>" alt="foto van de code van mijn footer">
+<img src="images/footer.png>"  width="375px" alt="foto van mijn footer">
+<img src="images/footercode1.png>" width="375px" alt="foto van de code van mijn footer">
+<img src="images/footercode2.png>" width="375px" alt="foto van de code van mijn footer">
 
 
 ### Agenda voor meeting
@@ -98,10 +98,11 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Zorgen dat mijn footer er netjes uit gaat zien
+- De knop 'aanmelden in de footer mooier maken (groter)
+- De drie icoontjes van facebook, instagram en twitter een eigen plek geven 
+
+
 
 </details>
 
@@ -115,8 +116,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb mijn footer inmiddels gefixd met hulp van de student assistenten. Ik heb de punten
+van vorige week doorgenomen en verbeterd.
+Hier zie je hooe mijn footer is verbeterd:
 
+<img src="images/Goeiefooter" width="375px" alt="Footer met verbeterpunten">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -131,10 +135,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet alles responsive maken
+- Ik heb alles op mobiel formaat gemaakt. Nu moet ik gaan kijken hoe ik het op een groter scherm wil neerzetten
 
 </details>
 
