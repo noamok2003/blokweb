@@ -85,14 +85,6 @@ In de footer gaat het nog niet zo goed en is nog niet alles op de juiste plek.
 <img src="images/footercode2.png" width="375px" alt="foto van de code van mijn footer">
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
@@ -120,16 +112,8 @@ Ik heb mijn footer inmiddels gefixd met hulp van de student assistenten. Ik heb 
 van vorige week doorgenomen en verbeterd.
 Hier zie je hooe mijn footer is verbeterd:
 
-<img src="images/Goeiefooter" width="375px" alt="Footer met verbeterpunten">
+<img src="images/Goeiefooter.png" width="375px" alt="Footer met verbeterpunten">
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
