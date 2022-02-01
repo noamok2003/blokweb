@@ -136,28 +136,28 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+### Tapbaar
+Je kan niet door mijn website heen tappen ben ik achter gekomen. Dit is onhandig voor mensen die alleen een toetsenbord gebruiken. Hij pakt een linkje bovenaan en springt dan gelijk naar een linkje onderaan.
+Dit komt omdat ik de linkjes in mijn website geen href heb gegeven:
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<img src="images/slechtelink.png" width="375px" alt="foto van hoe ik mijn linkjes had staan waardoor de website niet tapbaar was">
 
+Ik kan dit oplossen door alle linkjes een href te geven. Hierdoor maak je ze tapbaar ookal zijn ze leeg:
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<img src="images/goeielink.png" width="375px" alt="foto van hoe ik mijn linkjes tapbaar kan maken">
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Gekke brillen. 
+We moesten allemaal gekke brillen op om te zien hoe de website er dan uitziet. In princiepe vond ik dat je bij elke bril de website nog steeds kan zien zoals die bedoeld is.
+Ook bij de kleurenblind bril. Er zitten niet veel kleuren in de styling van de website en dat hoeft ook niet. Het gaat om de inhoud, dus kleurenblinden kunnen prima gebruik maken van de webiste. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+#### Parkinson test. 
+Om dit te testen kregen we een pijnlijk apparaatje die ons via onze armen tikjes gaf. Hierdoor werd de handling van door een website scrollen natuurlijk lastiger en uitdagender. 
+Het was overigens niet onmogelijk om de informatie uit de website te halen die de gebruiker eventueel nodig heeft. 
+Hoe vervelend die ziekte ook is, door de website scrollen lukt nog wel. 
+
+<img src="images/parkinson.jpg" width="375px" alt="foto van apparaatje wat we gebruikten om de ziekte van parkinson te testen">
 
 </details>
 
@@ -171,26 +171,21 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb mijn tweede pagina in html gezet en gestijld. Ik heb nu twee pagina's die op mobiel formaat goed zijn. Ik moet ze nu door middel van media queries responsive maken. 
+
+Hier zie je afbeeldingen van mijn tweede pagina:
+
+<img src="images/tweedepagina1.png" width="375px" alt="afbeelding tweede pagina eerste helft">
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+<img src="images/tweedepagina2.png" width="375px" alt="afbeelding tweede pagina tweede helft">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Alles moet responsive worden
+- breakpoints bepalen
+- youtube video over media queries bekijken en toepassen
 
 </details>
 
@@ -219,12 +214,10 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
+Ik heb niet heel veel bronnen gebruikt omdat ik voornamelijk alles heb gedaan met de student assistenten.
+Ook heb ik alle video's bekeken die aan mij werden gegeven via dlo.
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+1. https://www.youtube.com/watch?v=2KL-z9A56SQ&t=101s 
 
-1. bron 1
-2. bron 2
-3. ...
 
 </details>
