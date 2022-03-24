@@ -217,6 +217,16 @@ Ondanks alle gedoe over het afname moment van mijn mondeling en herkansing vond 
 <img src="images/verbeterpunten.png" width="375px" alt="afbeelding van verbeterpunten na eerste gesprek">
 <img src="images/verbeterpuntengedaan.png" width="375px" alt="afbeelding om te laten zien dat ik alle verbeterpunten heb verwerkt">
 
+Enkele foto's van het eindresultaat:
+<img src="images/eind1.png" width="375px" alt="afbeelding eindresultaat nummer 1">
+<img src="images/eind2.png" width="375px" alt="afbeelding eindresultaat nummer 2">
+<img src="images/eind3.png" width="375px" alt="afbeelding eindresultaat nummer 3">
+<img src="images/eind4.png" width="375px" alt="afbeelding eindresultaat nummer 4">
+<img src="images/eind5.png" width="375px" alt="afbeelding eindresultaat nummer 5">
+<img src="images/eind6.png" width="375px" alt="afbeelding eindresultaat nummer 6">
+<img src="images/eind7.png" width="375px" alt="afbeelding eindresultaat nummer 7">
+<img src="images/eind8.png" width="375px" alt="afbeelding eindresultaat nummer 8">
+
 
 
 </details>
