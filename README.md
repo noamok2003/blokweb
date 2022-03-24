@@ -218,13 +218,21 @@ Ondanks alle gedoe over het afname moment van mijn mondeling en herkansing vond 
 <img src="images/verbeterpuntengedaan.png" width="375px" alt="afbeelding om te laten zien dat ik alle verbeterpunten heb verwerkt">
 
 Enkele foto's van het eindresultaat:
+<p>
 <img src="images/eind1.png" width="375px" alt="afbeelding eindresultaat nummer 1">
+<p>
 <img src="images/eind2.png" width="375px" alt="afbeelding eindresultaat nummer 2">
+<p>
 <img src="images/eind3.png" width="375px" alt="afbeelding eindresultaat nummer 3">
+<p>
 <img src="images/eind4.png" width="375px" alt="afbeelding eindresultaat nummer 4">
+<p>
 <img src="images/eind5.png" width="375px" alt="afbeelding eindresultaat nummer 5">
+<p>
 <img src="images/eind6.png" width="375px" alt="afbeelding eindresultaat nummer 6">
+<p>
 <img src="images/eind7.png" width="375px" alt="afbeelding eindresultaat nummer 7">
+<p>
 <img src="images/eind8.png" width="375px" alt="afbeelding eindresultaat nummer 8">
 
 
