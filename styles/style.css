@@ -13,7 +13,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   --main-color: #fff;
   --second-color: #f2f0f0;
@@ -665,7 +664,6 @@ padding-bottom: 0.2em;
   }
   main section:nth-of-type(4) img{
     width: 45em;
-    padding-left: 8em; 
     padding-bottom: 2em;
   }
 }

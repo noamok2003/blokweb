@@ -76,7 +76,7 @@ de 'podcast' pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Ik vind alles erin zetten niet zo moeilijk. Ik heb nog niet gekeken naar hoe ik het responsive moet maken want heb alleen nog op mobile formaat zitten werken. Ik heb een paar vraagjes waar ik vast loop. 
+Ik vind alles erin zetten niet zo moeilijk. Ik heb nog niet gekeken naar hoe ik het responsive moet maken want heb alleen nog op mobiele formaat zitten werken. Ik heb een paar vraagjes waar ik vast loop. 
 
 In de footer gaat het nog niet zo goed en is nog niet alles op de juiste plek. 
 
@@ -110,7 +110,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 Ik heb mijn footer inmiddels gefixd met hulp van de student assistenten. Ik heb de punten
 van vorige week doorgenomen en verbeterd.
-Hier zie je hooe mijn footer is verbeterd:
+Hier zie je hoe mijn footer is verbeterd:
 
 <img src="images/Goeiefooter.png" width="375px" alt="Footer met verbeterpunten">
 
@@ -121,6 +121,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Ik moet alles responsive maken
 - Ik heb alles op mobiel formaat gemaakt. Nu moet ik gaan kijken hoe ik het op een groter scherm wil neerzetten
+- breakpoints bepalen.
 
 </details>
 
@@ -153,7 +154,7 @@ Ook bij de kleurenblind bril. Er zitten niet veel kleuren in de styling van de w
 
 
 #### Parkinson test. 
-Om dit te testen kregen we een pijnlijk apparaatje die ons via onze armen tikjes gaf. Hierdoor werd de handling van door een website scrollen natuurlijk lastiger en uitdagender. 
+Om dit te testen kregen we een pijnlijk apparaatje die ons via onze armen tikjes gaf. Hierdoor werd de handling van door een website heen scrollen natuurlijk lastiger en uitdagender. 
 Het was overigens niet onmogelijk om de informatie uit de website te halen die de gebruiker eventueel nodig heeft. 
 Hoe vervelend die ziekte ook is, door de website scrollen lukt nog wel. 
 
@@ -199,11 +200,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn eindgesprek is een beetje anders gelopen dan normaal.
+Op het moment van mijn mondeling was ik heel erg ziek waardoor ik deze niet heb kunnen doen.
+Toen heb ik op het herkansing moment m'n eerste mondeling had. 
+Hier zijn een paar punten naar voren gekomen die ik moest verbeteren voor een voldoende.
+Zodra ik dit heb gedaan moet ik met de examencomissie regelen dat ik een extra herkansing krijg om het vak te halen.
+
+Hieronder een screenshot van wat ik moest verbeteren voor een voldoende.
+
+Deze dingen heb ik gelijk aangepast en als het goed is heb ik dan eindelijk een voldoende voor dit vak.
+Mijn procesverslag is in orde en mijn website is voor zover ik iets begrijp van code, voldoende :)
+Ondanks alle gedoe over het afname moment van mijn mondeling en herkansing vond ik dit verrassend genoeg een erg interessant vak waar ik veel aan heb gehad! 
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/verbeterpunten.png" width="375px" alt="afbeelding van verbeterpunten na eerste gesprek">
+
+
 
 </details>
 
