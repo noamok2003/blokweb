@@ -215,6 +215,7 @@ Ondanks alle gedoe over het afname moment van mijn mondeling en herkansing vond 
 ### Screenshot(s)
 
 <img src="images/verbeterpunten.png" width="375px" alt="afbeelding van verbeterpunten na eerste gesprek">
+<img src="images/verbeterpuntengedaan.png" width="375px" alt="afbeelding om te laten zien dat ik alle verbeterpunten heb verwerkt">
 
 
 
